@@ -3,9 +3,9 @@
 The application is using mvc 
 
 
-# REST API
+# API
 
-The REST API to the example app is described below.
+The API to the todolist app is described below.
 
 ## Get list of Todos
 
