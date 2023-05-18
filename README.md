@@ -19,7 +19,7 @@ The API to the todolist app is described below.
 
 ### Request
 
-`POST /`
+`GET /`
 
     curl -i -H 'Accept: application/json' -d 'name=Foo&status=new' http://localhost:3000
 
