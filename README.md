@@ -2,10 +2,33 @@
 
 The application is using mvc 
 
+# INSTALL
+1.Install Node.js and npm if they aren't already installed on your system. You can download them from the Node.js website.
+2.Clone the project repository or download the source files.
+3.Open a terminal or command prompt window and navigate to the project directory.
+4.Run the command npm install to install any required dependencies.
+5.By default, the application will be available at http://localhost:3000. Open a web browser and visit this URL to access the application.
+
+
 
 # API
 
 The API to the todolist app is described below.
+
+## index.html file rendering
+
+### Request
+
+`POST /`
+
+    curl -i -H 'Accept: application/json' -d 'name=Foo&status=new' http://localhost:3000
+
+### Response
+
+ ../index.html 
+ 
+
+
 
 ## Get list of Todos
 
